@@ -67,6 +67,9 @@ Following is key presses to make changes in `ListExamples.java`
 y
 <enter>
 
+Changes made after saving in nano:
+[ChangesinNano]()
+
 ### Run JUnit tests to show that they succeed
 up 3 enter javac
 up 3 enter java
