@@ -14,6 +14,8 @@ These are the following steps that will be completed:
 5. Run the tests, demonstrating that they now succeed
 6. Commit and push the resulting change to your Github account
 
+---
+
 ### Logging in
 - Using `ssh cs15lwi23***@ieng6.ucsd.edu` (a command already saved in my terminal search history) in the terminal with `***` being replaced with my personal identification, then I log into the remote server after inputting my password when prompted then pressing `<enter>`. 
 - Keys Pressed:
@@ -21,9 +23,13 @@ These are the following steps that will be completed:
 `<enter>`
 [Login Image]()
 
+---
+
 ### Deleting existing forks of the repository on account
 Then I check if I have an existing clone of the repository using `ls` then I type `rm -rf lab7` to remove is then `<up>` and `<enter>` to call `ls` again to show that `lab7` is no longer in the remote server directory.
 [setup Image]()
+
+---
 
 ### Cloning the fork of the repository from Github account
 Cloning the repository
@@ -34,9 +40,37 @@ I then then I hit `<up>` and `<enter>` to call `ls` again to show that the the r
 
 I pressed `<up><up><up><up><up><up><up><up>` and `<enter>` to `cd lab7` so that I would be in the correct directory
 
+---
+
 ### Checking for failed JUnit tests
 Keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>`, `<up><up><up><up><up><up><up><up><up><up><up><enter>`
 
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 11 up in the search history, so I used up arrow to access it. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` command was 11 up in the history, so I accessed and ran it in the same way.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 11 up in the search history, so I used up arrow to access it. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 11 up in the history, so I accessed and ran it in the same way.
 
+[JUnittests1fail]()
+
+---
+
+### Debugging code to fix failing test
+
+The bug was in the file `ListExamples.java` 
+Using `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` to get to the command `nano ListExamples.java`. This allows me to see the file `ListExamples.java` 
+
+[Nanocall]()
+
+Following is key presses to make changes in `ListExamples.java`
+`<^O><enter>`
+`<^W>`
+`<down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down>` (17 times)
+`<right><right><right><right><backspace><2>`
+`<^X>`
+y
+<enter>
+
+### Run JUnit tests to show that they succeed
+up 3 enter javac
+up 3 enter java
+correct
+
+### Commit and push changes to Github account
 
