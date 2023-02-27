@@ -31,3 +31,12 @@ I had `git clone https://github.com/karinnamonzon/lab7` saved in my terminal his
 [Clonedlab]()
 
 I then then I hit `<up>` and `<enter>` to call `ls` again to show that the the repository had been cloned.
+
+I pressed `<up><up><up><up><up><up><up><up>` and `<enter>` to `cd lab7` so that I would be in the correct directory
+
+### Checking for failed JUnit tests
+Keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>`, `<up><up><up><up><up><up><up><up><up><up><up><enter>`
+
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 11 up in the search history, so I used up arrow to access it. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` command was 11 up in the history, so I accessed and ran it in the same way.
+
+
