@@ -15,15 +15,19 @@ These are the following steps that will be completed:
 6. Commit and push the resulting change to your Github account
 
 ### Logging in
-- Using `ssh cs15lwi23***@ieng6.ucsd.edu` (a command already saved in my terminal search history) in the terminal with `***` being replaced I log into the remote server after inputting my password when prompted then pressing `<enter>`. 
-[Login Image]()
-
+- Using `ssh cs15lwi23***@ieng6.ucsd.edu` (a command already saved in my terminal search history) in the terminal with `***` being replaced with my personal identification, then I log into the remote server after inputting my password when prompted then pressing `<enter>`. 
 - Keys Pressed:
 `<up>`
 `<enter>`
+[Login Image]()
 
-Then I check if I have an existing clone of the repository using `ls` then I type `rm -rf lab7` to remove is then `<up>` and `<enter>` to show that `lab7` is no longer in the remote server directory.
+### Deleting existing forks of the repository on account
+Then I check if I have an existing clone of the repository using `ls` then I type `rm -rf lab7` to remove is then `<up>` and `<enter>` to call `ls` again to show that `lab7` is no longer in the remote server directory.
 [setup Image]()
 
+### Cloning the fork of the repository from Github account
+Cloning the repository
+I had `git clone https://github.com/karinnamonzon/lab7` saved in my terminal history so I pressed `<up>` 8 times and then `<enter>`
+[Clonedlab]()
 
-
+I then then I hit `<up>` and `<enter>` to call `ls` again to show that the the repository had been cloned.
