@@ -74,6 +74,9 @@ Changes made after saving in nano:
 up 3 enter javac
 up 3 enter java
 correct
-
+[2correct]()
+  
 ### Commit and push changes to Github account
 
+  [gitCommit]()
+  [gitPush]()
