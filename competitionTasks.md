@@ -21,20 +21,20 @@ These are the following steps that will be completed:
 - Keys Pressed:
 `<up>`
 `<enter>`
-[Login Image](https://github.com/karinnamonzon/labReport4/blob/main/login.png?raw=true)
+[!Login Image](https://github.com/karinnamonzon/labReport4/blob/main/login.png?raw=true)
 
 ---
 
 ### Deleting existing forks of the repository on account
 Then I check if I have an existing clone of the repository using `ls` then I type `rm -rf lab7` to remove is then `<up>` and `<enter>` to call `ls` again to show that `lab7` is no longer in the remote server directory.
-[setup Image](https://github.com/karinnamonzon/labReport4/blob/main/setup.png?raw=true)
+[!setup Image](https://github.com/karinnamonzon/labReport4/blob/main/setup.png?raw=true)
 
 ---
 
 ### Cloning the fork of the repository from Github account
 Cloning the repository
 I had `git clone https://github.com/karinnamonzon/lab7` saved in my terminal history so I pressed `<up>` 8 times and then `<enter>`
-[Clonedlab](https://github.com/karinnamonzon/labReport4/blob/main/clonedLab.png?raw=true)
+[!Clonedlab](https://github.com/karinnamonzon/labReport4/blob/main/clonedLab.png?raw=true)
 
 I then then I hit `<up>` and `<enter>` to call `ls` again to show that the the repository had been cloned.
 
@@ -47,7 +47,7 @@ Keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>`, `<up><up><u
 
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 11 up in the search history, so I used up arrow to access it. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 11 up in the history, so I accessed and ran it in the same way.
 
-[JUnittests1fail](https://github.com/karinnamonzon/labReport4/blob/main/JUnittesting1fail.png?raw=true)
+[!JUnittests1fail](https://github.com/karinnamonzon/labReport4/blob/main/JUnittesting1fail.png?raw=true)
 
 ---
 
@@ -56,7 +56,7 @@ The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command 
 The bug was in the file `ListExamples.java` 
 Using `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` to get to the command `nano ListExamples.java`. This allows me to see the file `ListExamples.java` 
 
-[Nanocall](https://github.com/karinnamonzon/labReport4/blob/main/nanoCall.png?raw=true)
+[!Nanocall](https://github.com/karinnamonzon/labReport4/blob/main/nanoCall.png?raw=true)
 
 Following is key presses to make changes in `ListExamples.java`
 `<^O><enter>`
@@ -68,7 +68,7 @@ y
 <enter>
 
 Changes made in `merge` after saving in nano:
-[ChangesinNano](https://github.com/karinnamonzon/labReport4/blob/main/changesMadeNano.png?raw=true)
+[!ChangesinNano](https://github.com/karinnamonzon/labReport4/blob/main/changesMadeNano.png?raw=true)
 
 ---
  
@@ -76,11 +76,11 @@ Changes made in `merge` after saving in nano:
 up 3 enter javac
 up 3 enter java
 correct
-[2correct](https://github.com/karinnamonzon/labReport4/blob/main/2correct.png?raw=true)
+[!2correct](https://github.com/karinnamonzon/labReport4/blob/main/2correct.png?raw=true)
 
 ---
   
 ### Commit and push changes to Github account
 
-  [gitCommit](https://github.com/karinnamonzon/labReport4/blob/main/gitCommit.png?raw=true)
-  [gitPush](https://github.com/karinnamonzon/labReport4/blob/main/gitpush.png?raw=true)
+  [!gitCommit](https://github.com/karinnamonzon/labReport4/blob/main/gitCommit.png?raw=true)
+  [!gitPush](https://github.com/karinnamonzon/labReport4/blob/main/gitpush.png?raw=true)
