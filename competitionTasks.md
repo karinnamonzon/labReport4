@@ -26,7 +26,7 @@ These are the following steps that will be completed:
 ---
 
 ### Deleting existing forks of the repository on account
-Then I check if I have an existing clone of the repository using `<up><up><up><up><enter>` to get to the command`ls` then I type `rm -rf lab7` to remove is then `<up>` and `<enter>` to call `ls` again to show that `lab7` is no longer in the remote server directory.
+Then I check if I have an existing clone of the repository using `<up><up><up><up><enter>` to get to the command`ls` then I typed `rm -rf lab7` to remove is then `<up>` and `<enter>` to call `ls` again to show that `lab7` is no longer in the remote server directory.
 ![setup Image](https://github.com/karinnamonzon/labReport4/blob/main/setup.png?raw=true)
 
 ---
@@ -83,6 +83,18 @@ Here are the results of running the JUnit tests. It now says that the two tests 
 ---
   
 ### Commit and push changes to Github account
+Keys pressed: 
+- `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` (16 up, 1 enter)
+- `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` (16 up, 1 enter)
+- `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` (16 up, 1 enter)
+- `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` (16 up, 1 enter)
+- `cd<space><~><enter>`
+- `rm<space><->rf<space>lab7 <enter>`
+- `<exit><enter>`
 
+
+Calling command `git commit` and its results
   ![gitCommit](https://github.com/karinnamonzon/labReport4/blob/main/gitCommit.png?raw=true)
+  
+Calling command `git add` and its results. Removing `lab7` and then exiting from the remote server.
   ![gitPush](https://github.com/karinnamonzon/labReport4/blob/main/gitpush.png?raw=true)
