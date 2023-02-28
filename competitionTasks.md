@@ -92,6 +92,7 @@ Keys pressed:
 - `rm<space><->rf<space>lab7 <enter>`
 - `<exit><enter>`
 
+I had the command `git add ListExamplesTests.java ListExamples.java`in my history so I pressed <up> 16 times and then enter to run it and add these files to my GitHub. Then the command git `commit -m "Successful commit"` was run by a command saved in my history and accessed that the same way and pressed `<enter>`, this shows that I had commit changes to GitHub. The next command was `git commit` which was saved in my history that was accessed in the same way, this allowed for changes to be fully committed. The next command was `git push` which was a stored command in the terminal history and this allowed for all changes that had been committed to be pushed to the repository. I then used `cd ~` by typing into hte terminal in order to go to the home director in order to remove the `lab7` directory by typing 'rm -rf lab7` for the next log-in. Then I typed `exit` to exit the remote server completely.
 
 Calling command `git commit` and its results
   ![gitCommit](https://github.com/karinnamonzon/labReport4/blob/main/gitCommit.png?raw=true)
